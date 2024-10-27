@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NearEarthObjectVisualization"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Near Earth Object" Height="800" Width="800">
     <Grid>
-
+        <Canvas x:Name="OrbitalCanvas" Background="Black" Width="700" Height="500" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        <Button Content="Fetch Data" HorizontalAlignment="Right" VerticalAlignment="Top" Click="FetchDataButton_Click" />
     </Grid>
 </Window>
